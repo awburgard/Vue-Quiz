@@ -1,4 +1,8 @@
-# quiz
+# Simple Quiz App
+
+## Description
+
+This is a simple quiz app built using Vue.js.
 
 ## Project setup
 ```
