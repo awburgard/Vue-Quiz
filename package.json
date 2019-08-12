@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "lint": "vue-cli-service lint",
-    "start": "node /server/server.js",
+    "start": "node server/server.js",
     "client": "react-scripts start",
     "build": "vue-cli-service build",
     "test": "react-scripts test --env=jsdom",
