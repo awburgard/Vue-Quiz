@@ -1,8 +1,13 @@
-const express = require('express');
-const path = require("path");
-const serveStatic = require("serve-static");
+const express = require("express");
 const app = express();
+
+// Serve static files
 app.use(express.static("dist"));
-let port = process.env.PORT || 8080;
-app.listen(port);
-console.log("server started " + port);
+
+// App Set //
+const PORT = process.env.PORT || 8080;
+
+/** Listen * */
+app.listen(PORT, () => {
+  console.log(`Listening on port: ${PORT}`);
+});
